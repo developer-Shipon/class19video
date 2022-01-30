@@ -1,0 +1,71 @@
+header{
+    background-color: blue;
+    color: #fff;
+}
+/* **** HEADER PRAT STRAT** */
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header figure{
+    width: 219px;
+    display: inline-block;
+}
+.header figure img{
+    max-width: 100%;
+    float: left;
+    width: 30%;
+}
+nav{
+    display: inline-block;
+    float: right;
+    width: 70%;
+    margin: auto;
+}
+nav ul{
+    text-align: center;
+    line-height: 44px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    margin: 0px 20px;
+}
+/* **** HEADER PRAT END** */
+/* ***** BANNER FIGUR PRAT STRAT**** */
+.banner{
+    background-color: #ddd;
+    margin-top: -13px;
+}
+.banner-figure figcaption{
+    text-align: center;
+    height: 40px;
+    font-size: 26px;
+    color: #000;
+    padding: 10px 0;
+}
+.banner-figure figure{}
+article{
+    background-color: #fff;
+text-align: center;    
+}
+article p{
+font-size: 25px;
+font-weight: 300;
+}
+footer{
+    background-color: rgb(105, 37, 168);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+
+}
+/* ***** BANNER FIGUR PRAT END**** */
